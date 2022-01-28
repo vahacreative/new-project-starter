@@ -29,7 +29,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: [
-          // 'Quicksand',
+          'Inter',
           ...defaultTheme.fontFamily.sans,
         ]
       },
