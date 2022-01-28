@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    #__next {
+        @apply w-full font-sans mx-auto min-h-screen flex flex-col items-center overflow-x-hidden;
+    }
+}
+
+/* .slide-in {
+    @apply w-full fixed left-0 top-0 h-screen origin-left bg-white;
+  }
+
+  .slide-out {
+    @apply w-full fixed left-0 top-0 h-screen origin-right bg-white;
+  }
+
+
+
+.Toastify__toast-theme--light {
+    @apply bg-white/20 dark:bg-gray-900/20 text-gray-900 dark:text-white backdrop-blur-md;
+    }
+    .Toastify__close-button--light {
+        @apply text-gray-900 dark:text-white
+    } */
