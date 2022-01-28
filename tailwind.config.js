@@ -6,6 +6,7 @@ module.exports = {
   darkMode: 'class', // or 'media' or 'class'
   theme: {
     colors: {
+      // https://www.tailwindshades.com/
       'brand': {
         DEFAULT: '#0D2237',
         '50': '#78ACDF',

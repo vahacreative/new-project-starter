@@ -1,9 +1,9 @@
-const siteUrl = `https://${process.env.NEXT_PUBLIC_URL}`;
+const siteUrl = process.env.NEXT_PUBLIC_URL;
 
 module.exports = {
   siteUrl,
   generateRobotsTxt: true,
-  exclude: ['/sitemap-haberler.xml', '/sitemap-kurslar.xml', '/sitemap-kampusler.xml', '/sitemap-sayfalar.xml'],
+  exclude: ['/sitemap-example.xml'],
   sitemapSize: 1000,
   changefreq: 'daily',
   priority: 1.0,
@@ -18,10 +18,7 @@ module.exports = {
   },
   robotsTxtOptions: {
     additionalSitemaps: [
-      `${siteUrl}/sitemap-kampusler.xml`,
-      `${siteUrl}/sitemap-haberler.xml`,
-      `${siteUrl}/sitemap-kurslar.xml`,
-      `${siteUrl}/sitemap-sayfalar.xml`,
+      `${siteUrl}/sitemap-example.xml`,
     ],
     policies: [
        {
