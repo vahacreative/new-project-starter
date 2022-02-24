@@ -44,6 +44,8 @@
     "@tailwindcss/typography": "latest",
     "autoprefixer": "latest",
     "postcss": "latest",
+    "prettier": "^2.5.1",
+    "prettier-plugin-tailwindcss": "^0.1.7",
     "tailwind-scrollbar": "latest",
     "tailwindcss": "latest"
   }
